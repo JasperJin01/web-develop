@@ -1,0 +1,991 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head><meta charset="UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>代码快速复习 · 🏠 Jasper&#39;s Blog</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Jasper's Blog(new version) since 2024.
+"><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="Jasper Jin"><link rel="stylesheet" href="/assets/gitbook/style.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-search-pro/search.css">
+<link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-splitter/splitter.css">
+
+<link rel="stylesheet" href="/assets/gitbook/rouge/github.css">
+
+<link rel="stylesheet" href="/assets/gitbook/custom.css">
+<link rel="stylesheet" href="/assets/gitbook/custom-local.css">
+
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="/assets/gitbook/images/favicon.ico" type="image/x-icon">
+
+
+
+
+            <link rel="prev" href="/2024-03-18-chatgpt.html" />
+        
+
+        
+    </head>
+    <body>
+        <div class="book"><div class="book-summary">
+    <script type="text/javascript">
+        // Fixes the page links scroll problem on both desktop and mobile browsers
+        function pageScrollToTop(element) {
+            // both mobile and non-mobile
+            $('div.body-inner').animate({scrollTop: 0});
+            $(element).parent().find('li>ul>li').removeClass('active');
+            return true;  // propagate
+        }
+        // Fixes the anchor links scroll problem on mobile browsers
+        function mobilePageScrollToAnchor(element) {
+            $(element).closest('li.chapter').find('ul>li').removeClass('active');
+            $(element).parent().addClass('active');
+            if ($(document).width() <= 1240) {
+                $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
+            }
+            return true;
+        }
+    </script>
+
+    <nav role="navigation">
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div>
+        <div id="book-search-input-link" role="search">
+            <a href="/assets/search.html">Click to Search</a>
+        </div>
+        <ul class="summary">
+            
+            <li class="chapter" data-level="1.1" data-path="">
+            
+                <a href="/" onclick="pageScrollToTop(this)">
+                    🏠 Jasper&#39;s Blog
+                </a>
+            </li>
+
+            <li class="divider"></li>
+
+            
+                <!-- <p>pages</p> -->
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/vehicle/vehicle/">
+                        
+                            <a href="/pages/vehicle/vehicle/" onclick="pageScrollToTop(this)">
+                                🚙 Vehicle
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/weekly_report/">
+                        
+                            <a href="/pages/weekly_report/" onclick="pageScrollToTop(this)">
+                                📝 Weekly Report
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/assemble/">
+                        
+                            <a href="/pages/assemble/" onclick="pageScrollToTop(this)">
+                                华中科技大学考研复试 汇编语言笔记
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/database/">
+                        
+                            <a href="/pages/database/" onclick="pageScrollToTop(this)">
+                                华中科技大学考研复试 数据库笔记
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/feng_and_me/">
+                        
+                            <a href="/pages/feng_and_me/" onclick="pageScrollToTop(this)">
+                                我的本科四年和峰哥的爱恨情仇
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/pages/SQL_summary/">
+                        
+                            <a href="/pages/SQL_summary/" onclick="pageScrollToTop(this)">
+                                数据库SQL语句用法总结
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+
+                    
+                        <li class="divider"></li>
+                    
+                
+            
+                <!-- <p>posts</p> -->
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022-05-24-page_cover.html">
+                        
+                            <a href="/jekyll/2022-05-24-page_cover.html" onclick="pageScrollToTop(this)">
+                                Page with cover image
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022-06-26-wide_tables.html">
+                        
+                            <a href="/jekyll/2022-06-26-wide_tables.html" onclick="pageScrollToTop(this)">
+                                Wide tables
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022-06-30-tips_warnings_dangers.html">
+                        
+                            <a href="/jekyll/2022-06-30-tips_warnings_dangers.html" onclick="pageScrollToTop(this)">
+                                Tips, Warnings, and Dangers
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023-08-31-mermaid.html">
+                        
+                            <a href="/jekyll/2023-08-31-mermaid.html" onclick="pageScrollToTop(this)">
+                                Diagrams with mermaid.js
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023-10-14-math-latex.html">
+                        
+                            <a href="/jekyll/2023-10-14-math-latex.html" onclick="pageScrollToTop(this)">
+                                MathJax and LaTeX
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023-12-12-footnotes.html">
+                        
+                            <a href="/jekyll/2023-12-12-footnotes.html" onclick="pageScrollToTop(this)">
+                                Using Footnotes
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/2024-02-11-python.html">
+                        
+                            <a href="/2024-02-11-python.html" onclick="pageScrollToTop(this)">
+                                项目笔记——Video Downloader&amp;Python语法学习
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/2024-03-18-chatgpt.html">
+                        
+                            <a href="/2024-03-18-chatgpt.html" onclick="pageScrollToTop(this)">
+                                ChatGPT 提问汇总
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter active" data-level="1.2" data-path="/2024-03-21-coding_quick_review.html">
+                        
+                            <a href="/2024-03-21-coding_quick_review.html" onclick="pageScrollToTop(this)">
+                                代码快速复习
+                            </a>
+                            
+                                
+                                    <ul><li><a href="#c语言c复习" onclick="mobilePageScrollToAnchor(this)" >C语言（C++）复习</a><ul><li><a href="#输入输出" onclick="mobilePageScrollToAnchor(this)" >输入输出</a></li><li><a href="#字符串处理" onclick="mobilePageScrollToAnchor(this)" >字符串处理</a></li><li><a href="#文件io" onclick="mobilePageScrollToAnchor(this)" >文件IO</a></li><li><a href="#c-stl与库函数" onclick="mobilePageScrollToAnchor(this)" >C++ STL与库函数</a></li><li><a href="#牛客网练习题链接" onclick="mobilePageScrollToAnchor(this)" >牛客网练习题链接</a></li></ul></li><li><a href="#练习题目" onclick="mobilePageScrollToAnchor(this)" >练习题目</a><ul><li><a href="#判断是否为闰年" onclick="mobilePageScrollToAnchor(this)" >判断是否为闰年</a></li><li><a href="#判断是否为质数-isprime" onclick="mobilePageScrollToAnchor(this)" >判断是否为质数 IsPrime</a></li><li><a href="#输出int整数的32位二进制" onclick="mobilePageScrollToAnchor(this)" >输出int整数的32位二进制</a></li><li><a href="#表达式求值" onclick="mobilePageScrollToAnchor(this)" >表达式求值</a></li><li><a href="#将数值去掉n位后返回最小的那个数" onclick="mobilePageScrollToAnchor(this)" >将数值去掉n位后返回最小的那个数</a></li><li><a href="#-图的算法" onclick="mobilePageScrollToAnchor(this)" >🔴 图的算法</a></li><li><a href="#-动态规划回文子串的一些内容的复习" onclick="mobilePageScrollToAnchor(this)" >🔴 动态规划（回文子串）的一些内容的复习</a></li><li><a href="#-分数转换成小数" onclick="mobilePageScrollToAnchor(this)" >🔴 分数转换成小数</a></li></ul></li></ul>
+
+                                
+                            
+                        </li>
+                    
+
+                    
+                        <li class="divider"></li>
+                    
+                
+            
+                <!-- <p>research</p> -->
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/research/02-transform.html">
+                        
+                            <a href="/research/02-transform.html" onclick="pageScrollToTop(this)">
+                                Transformer的学习（2）
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/research/01-transform.html">
+                        
+                            <a href="/research/01-transform.html" onclick="pageScrollToTop(this)">
+                                Transformer的学习（1）
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+
+                    
+                        <li class="divider"></li>
+                    
+                
+            
+                <!-- <p>week</p> -->
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/week/2024-03-17-week-algorithm-1.html">
+                        
+                            <a href="/week/2024-03-17-week-algorithm-1.html" onclick="pageScrollToTop(this)">
+                                数据结构&amp;算法（1）
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/week/2024-03-17-week-algorithm-2.html">
+                        
+                            <a href="/week/2024-03-17-week-algorithm-2.html" onclick="pageScrollToTop(this)">
+                                数据结构&amp;算法（2）
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/week/2024-03-19-week-algorithm-3.html">
+                        
+                            <a href="/week/2024-03-19-week-algorithm-3.html" onclick="pageScrollToTop(this)">
+                                数据结构&amp;算法（3）
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+
+                    
+                        <li class="divider"></li>
+                    
+                
+            
+        </ul>
+    </nav>
+</div>
+<div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- Title -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        
+                            <a href="." >代码快速复习</a>
+                        
+                    </h1>
+                </div>
+
+                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
+    
+
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    
+                        <h1 id="/coding_quick_review">代码快速复习</h1>
+                    
+
+                    <div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"Hello world!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p><br /></p>
+
+<ul id="markdown-toc">
+  <li><a href="#c语言c复习" id="markdown-toc-c语言c复习">C语言（C++）复习</a>    <ul>
+      <li><a href="#输入输出" id="markdown-toc-输入输出">输入输出</a></li>
+      <li><a href="#字符串处理" id="markdown-toc-字符串处理">字符串处理</a></li>
+      <li><a href="#文件io" id="markdown-toc-文件io">文件IO</a></li>
+      <li><a href="#c-stl与库函数" id="markdown-toc-c-stl与库函数">C++ STL与库函数</a></li>
+      <li><a href="#牛客网练习题链接" id="markdown-toc-牛客网练习题链接">牛客网练习题链接</a></li>
+    </ul>
+  </li>
+  <li><a href="#练习题目" id="markdown-toc-练习题目">练习题目</a>    <ul>
+      <li><a href="#判断是否为闰年" id="markdown-toc-判断是否为闰年">判断是否为闰年</a></li>
+      <li><a href="#判断是否为质数-isprime" id="markdown-toc-判断是否为质数-isprime">判断是否为质数 IsPrime</a></li>
+      <li><a href="#输出int整数的32位二进制" id="markdown-toc-输出int整数的32位二进制">输出int整数的32位二进制</a></li>
+      <li><a href="#表达式求值" id="markdown-toc-表达式求值">表达式求值</a></li>
+      <li><a href="#将数值去掉n位后返回最小的那个数" id="markdown-toc-将数值去掉n位后返回最小的那个数">将数值去掉n位后返回最小的那个数</a></li>
+      <li><a href="#-图的算法" id="markdown-toc--图的算法">🔴 图的算法</a></li>
+      <li><a href="#-动态规划回文子串的一些内容的复习" id="markdown-toc--动态规划回文子串的一些内容的复习">🔴 动态规划（回文子串）的一些内容的复习</a></li>
+      <li><a href="#-分数转换成小数" id="markdown-toc--分数转换成小数">🔴 分数转换成小数</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="c语言c复习">C语言（C++）复习</h1>
+
+<p>如果可以使用C++，主要注意下面C语言用法：</p>
+
+<ul>
+  <li>C语言可以格式化输入<code class="language-plaintext highlighter-rouge">scanf("%d.%d.%d.%d", &amp;a, &amp;b, &amp;c, &amp;d);</code></li>
+  <li>C语言可以格式化输出<code class="language-plaintext highlighter-rouge">printf("%03d\n", 7);</code></li>
+  <li>多次获取值（适用于从文件读入）</li>
+</ul>
+
+<h2 id="输入输出">输入输出</h2>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 输入</span>
+<span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">);</span>
+<span class="n">scanf</span><span class="p">(</span><span class="s">"%d%d%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">c</span><span class="p">);</span>
+<span class="n">scanf</span><span class="p">(</span><span class="s">"%d.%d.%d.%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">b</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">c</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">d</span><span class="p">);</span> <span class="c1">// 例如输入 192.108.12.1,则abcd会输入为相应值</span>
+<span class="n">scanf</span><span class="p">(</span><span class="s">"%s"</span><span class="p">,</span> <span class="n">str</span><span class="p">);</span> 			<span class="c1">// char str[50]; （没有地址符号）</span>
+<span class="n">gets</span><span class="p">(</span><span class="n">str</span><span class="p">);</span>					<span class="c1">// 输入一行字符串</span>
+<span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">str</span><span class="p">);</span> 			<span class="c1">// 输入一行字符串 string str;</span>
+</code></pre></div></div>
+
+<p><strong>注：使用getline获取一行的数据时，如果之前有输入过字符，会在缓冲区中留下回车符号。此时必须使用<code class="language-plaintext highlighter-rouge">getchar()</code>把缓冲区中的回车去掉。</strong></p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+	<span class="n">string</span> <span class="n">ss</span><span class="p">,</span> <span class="n">sstest</span><span class="p">;</span>
+	<span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">ss</span><span class="p">;</span>
+	<span class="n">getchar</span><span class="p">();</span> <span class="c1">// 要把缓冲区中的回车去掉，没有这行代码sstest为空</span>
+	<span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">sstest</span><span class="p">);</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"sstest: "</span> <span class="o">&lt;&lt;</span> <span class="n">sstest</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"sstest's length: "</span> <span class="o">&lt;&lt;</span> <span class="n">sstest</span><span class="p">.</span><span class="n">length</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 输出</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">127</span><span class="p">);</span>        <span class="c1">// 127</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%03d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">7</span><span class="p">);</span>		<span class="c1">// 007</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%f</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">314</span><span class="p">.</span><span class="mi">15</span><span class="p">);</span>     <span class="c1">// 314.159000 （float类型）</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%.2f</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">314</span><span class="p">.</span><span class="mi">15</span><span class="p">);</span>   <span class="c1">// 314.15 指定精度</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">314</span><span class="p">.</span><span class="mi">15</span><span class="p">);</span>    <span class="c1">// 314.159000 （double类型）</span>
+
+<span class="n">printf</span><span class="p">(</span><span class="s">"%c</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="sc">'c'</span><span class="p">);</span>        <span class="c1">// c</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">str</span><span class="p">);</span>        <span class="c1">// char str[50] （没有地址符号）</span>
+
+<span class="n">printf</span><span class="p">(</span><span class="s">"%o</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">177</span><span class="p">);</span>        <span class="c1">// 177  八进制</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%x</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">177</span><span class="p">);</span>        <span class="c1">// b1   十六进制</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%e</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="mi">314</span><span class="p">.</span><span class="mi">15</span><span class="p">);</span>     <span class="c1">// 3.141590e+02</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<p><strong>Online Judge中连续多组测试数据的输入：</strong></p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span> <span class="p">(</span><span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">num</span><span class="p">)</span> <span class="o">!=</span> <span class="n">EOF</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//...</span>
+<span class="p">}</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">gets</span><span class="p">(</span><span class="n">str</span><span class="p">))</span> <span class="p">{</span> <span class="c1">// 输入一行字符串</span>
+    <span class="c1">//...</span>
+<span class="p">}</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">a</span> <span class="o">&gt;&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">//...</span>
+<span class="p">}</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">str</span><span class="p">))</span> <span class="p">{</span>
+    <span class="c1">//...</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="字符串处理">字符串处理</h2>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">char</span> <span class="n">str</span><span class="p">[</span><span class="mi">50</span><span class="p">];</span>
+<span class="n">scanf</span><span class="p">(</span><span class="s">"%s"</span><span class="p">,</span> <span class="n">str</span><span class="p">);</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">str</span><span class="p">);</span>
+<span class="c1">// 下面的函数在&lt;string.h&gt;头文件中</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">strlen</span><span class="p">(</span><span class="n">str</span><span class="p">));</span>
+<span class="kt">char</span> <span class="n">str2</span><span class="p">[</span><span class="mi">50</span><span class="p">];</span>
+<span class="n">strcpy</span><span class="p">(</span><span class="n">str2</span><span class="p">,</span> <span class="n">str1</span><span class="p">);</span> <span class="c1">// 把str1复制到str2中</span>
+</code></pre></div></div>
+
+<h2 id="文件io">文件IO</h2>
+
+<p>（IO感觉真的不太常用），这里只介绍通过<code class="language-plaintext highlighter-rouge">fgetc(FILE*)</code>一个一个字符读取文件，通过<code class="language-plaintext highlighter-rouge">fputc(char, FILE*)</code>一个一个字符写入文件。</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">fileRead</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">FILE</span><span class="o">*</span> <span class="n">fp</span> <span class="o">=</span> <span class="n">fopen</span><span class="p">(</span><span class="s">"文件路径"</span><span class="p">,</span> <span class="s">"r"</span><span class="p">);</span> <span class="c1">//以读(r)的方式打开文件</span>
+    <span class="kt">char</span> <span class="n">ch</span><span class="p">;</span>
+    <span class="k">while</span><span class="p">((</span><span class="n">ch</span> <span class="o">=</span> <span class="n">fgetc</span><span class="p">(</span><span class="n">fp</span><span class="p">))</span> <span class="o">!=</span> <span class="n">EOF</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// 一个一个字符串读入</span>
+        <span class="c1">// ...</span>
+    <span class="p">}</span>
+    <span class="n">fclose</span><span class="p">(</span><span class="n">fp</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">char</span> <span class="o">*</span><span class="nf">fgets</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">str</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">FILE</span> <span class="o">*</span><span class="n">stream</span><span class="p">);</span>
+<span class="c1">// str：指向一个字符数组的指针，用于存储读取到的字符串。</span>
+<span class="c1">// n：指明最多读取多少个字符，包括最后的空字符。为了安全读取整行，这个值应该是str指向的数组的大小。</span>
+<span class="c1">// stream：指定从哪个文件流读取数据，通常是一个FILE *类型的文件指针。</span>
+
+<span class="kt">void</span> <span class="nf">fileWrite</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">File</span><span class="o">*</span> <span class="n">fp</span> <span class="o">=</span> <span class="n">fopen</span><span class="p">(</span><span class="s">"文件路径"</span><span class="p">,</span> <span class="s">"w"</span><span class="p">);</span> <span class="c1">// 以写(w)的方式打开文件，文件不存在会自动创建，文件存在会覆盖掉之前的内容</span>
+    <span class="n">string</span> <span class="n">ss</span> <span class="o">=</span> <span class="s">"Input content..."</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">char</span> <span class="n">c</span><span class="o">:</span> <span class="n">ss</span><span class="p">)</span> <span class="n">fputc</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">fp</span><span class="p">);</span>
+    <span class="n">fclose</span><span class="p">(</span><span class="n">fp</span><span class="p">);</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<h2 id="c-stl与库函数">C++ STL与库函数</h2>
+
+<p><code class="language-plaintext highlighter-rouge">stio()</code>和<code class="language-plaintext highlighter-rouge">to_string()</code></p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// stack</span>
+<span class="n">stack</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">num</span><span class="p">;</span>
+<span class="n">num</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="mi">9</span><span class="p">);</span>
+<span class="c1">// top()返回栈顶元素，pop()删除栈顶元素不返回值</span>
+<span class="kt">int</span> <span class="n">tmp1</span> <span class="o">=</span> <span class="n">num</span><span class="p">.</span><span class="n">top</span><span class="p">();</span> <span class="n">num</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+
+
+<span class="c1">// map</span>
+<span class="n">map</span><span class="o">&lt;</span><span class="kt">char</span><span class="p">,</span><span class="kt">char</span><span class="o">&gt;</span> <span class="n">rev</span> <span class="o">=</span> <span class="p">{</span> <span class="p">{</span><span class="sc">')'</span><span class="p">,</span> <span class="sc">'('</span><span class="p">},{</span><span class="sc">']'</span><span class="p">,</span><span class="sc">'['</span><span class="p">},{</span><span class="sc">'}'</span><span class="p">,</span><span class="sc">'{'</span><span class="p">}</span> <span class="p">};</span> <span class="c1">// map可以使用这种方式初始化</span>
+
+<span class="c1">// 用stack&lt;pair&lt;int, int&gt;&gt;保存图的邻接链表</span>
+<span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;vector&gt;</span><span class="cp">
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">edge</span> <span class="o">=</span> <span class="p">{</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">},</span> <span class="p">{</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">},</span> <span class="p">{</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">}</span> <span class="p">};</span>
+	<span class="n">edge</span><span class="p">.</span><span class="n">push_back</span><span class="p">({</span><span class="mi">12</span><span class="p">,</span> <span class="mi">34</span><span class="p">});</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">edge</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> 
+		<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">edge</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">first</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span> <span class="o">&lt;&lt;</span> <span class="n">edge</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">second</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="牛客网练习题链接">牛客网练习题链接</h2>
+
+<p>牛客网华中科技大学历年计算机考研复试上机题在线练习<a href="https://www.nowcoder.com/ta/hust-kaoyan">链接点这里</a>。</p>
+
+<p>【PS】华中科技大学复试的机试环节，是将每道题目写好的代码放入指定的文件夹中保存在PC上，并非像LeetCode/牛客那样的线上测试评分。所以包括牛客网的题目，有些题目的测试数据也是不严谨的。</p>
+
+<h1 id="练习题目">练习题目</h1>
+
+<h2 id="判断是否为闰年">判断是否为闰年</h2>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="n">year</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span> <span class="p">(</span><span class="n">year</span> <span class="o">%</span> <span class="mi">100</span><span class="o">!=</span><span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">year</span> <span class="o">%</span> <span class="mi">4</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="判断是否为质数-isprime">判断是否为质数 IsPrime</h2>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+
+<h2 id="输出int整数的32位二进制">输出int整数的32位二进制</h2>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+
+<h2 id="表达式求值">表达式求值</h2>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;stack&gt;</span><span class="cp">
+#include</span> <span class="cpf">&lt;map&gt;</span><span class="cp">
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">val</span><span class="p">[</span><span class="mi">6</span><span class="p">];</span>
+<span class="n">stack</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">num</span><span class="p">;</span>
+<span class="n">stack</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">&gt;</span> <span class="n">op</span><span class="p">;</span>
+<span class="n">map</span><span class="o">&lt;</span><span class="kt">char</span><span class="p">,</span><span class="kt">char</span><span class="o">&gt;</span> <span class="n">rev</span> <span class="o">=</span> <span class="p">{</span> <span class="p">{</span><span class="sc">')'</span><span class="p">,</span> <span class="sc">'('</span><span class="p">},{</span><span class="sc">']'</span><span class="p">,</span><span class="sc">'['</span><span class="p">},{</span><span class="sc">'}'</span><span class="p">,</span><span class="sc">'{'</span><span class="p">}</span> <span class="p">};</span> <span class="c1">// map可以使用这种方式初始化</span>
+<span class="c1">// priority</span>
+<span class="kt">int</span> <span class="nf">pri</span><span class="p">(</span><span class="kt">char</span> <span class="n">c</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'+'</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'-'</span><span class="p">)</span> <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'*'</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'/'</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span><span class="sc">'%'</span><span class="p">)</span> <span class="k">return</span> <span class="mi">2</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'^'</span><span class="p">)</span> <span class="k">return</span> <span class="mi">3</span><span class="p">;</span>
+	<span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">isOp</span><span class="p">(</span><span class="kt">char</span> <span class="n">c</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">return</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'+'</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'-'</span> <span class="o">||</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'*'</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'/'</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span><span class="sc">'%'</span><span class="o">||</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'^'</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">mi</span><span class="p">(</span><span class="kt">int</span> <span class="n">num1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">num2</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">num1</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">num2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">num1</span> <span class="o">*=</span> <span class="n">tmp</span><span class="p">;</span>
+    <span class="k">return</span> <span class="n">num1</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">cal</span><span class="p">()</span> <span class="p">{</span>
+	<span class="kt">int</span> <span class="n">tmp2</span> <span class="o">=</span> <span class="n">num</span><span class="p">.</span><span class="n">top</span><span class="p">();</span> <span class="n">num</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+	<span class="kt">int</span> <span class="n">tmp1</span> <span class="o">=</span> <span class="n">num</span><span class="p">.</span><span class="n">top</span><span class="p">();</span> <span class="n">num</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+	<span class="kt">char</span> <span class="n">c</span> <span class="o">=</span> <span class="n">op</span><span class="p">.</span><span class="n">top</span><span class="p">();</span> <span class="n">op</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'+'</span><span class="p">)</span> <span class="n">num</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">tmp1</span> <span class="o">+</span> <span class="n">tmp2</span><span class="p">);</span>
+	<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'-'</span><span class="p">)</span> <span class="n">num</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">tmp1</span> <span class="o">-</span> <span class="n">tmp2</span><span class="p">);</span>
+	<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'*'</span><span class="p">)</span> <span class="n">num</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">tmp1</span> <span class="o">*</span> <span class="n">tmp2</span><span class="p">);</span>
+	<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'/'</span><span class="p">)</span> <span class="n">num</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">tmp1</span> <span class="o">/</span> <span class="n">tmp2</span><span class="p">);</span>
+	<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'%'</span><span class="p">)</span> <span class="n">num</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">tmp1</span> <span class="o">%</span> <span class="n">tmp2</span><span class="p">);</span>
+	<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'^'</span><span class="p">)</span> <span class="n">num</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">mi</span><span class="p">(</span><span class="n">tmp1</span><span class="p">,</span> <span class="n">tmp2</span><span class="p">));</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">string</span> <span class="n">ss</span><span class="p">;</span>
+	<span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">ss</span><span class="p">;</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">6</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">val</span><span class="p">[</span><span class="n">i</span><span class="p">];</span> <span class="c1">//输入a~f</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">char</span> <span class="n">c</span> <span class="o">:</span> <span class="n">ss</span><span class="p">)</span> <span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">&gt;=</span> <span class="sc">'a'</span> <span class="o">&amp;&amp;</span> <span class="n">c</span> <span class="o">&lt;=</span> <span class="sc">'f'</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// 表示num</span>
+			<span class="n">num</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">val</span><span class="p">[</span><span class="n">c</span><span class="o">-</span><span class="sc">'a'</span><span class="p">]);</span>
+		<span class="p">}</span>
+		<span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">==</span> <span class="sc">'('</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'['</span> <span class="o">||</span> <span class="n">c</span> <span class="o">==</span> <span class="sc">'{'</span><span class="p">)</span> <span class="p">{</span>
+			<span class="n">op</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">c</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">isOp</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="p">{</span>
+			<span class="c1">// TODO !这里一定不要忘记先判断一下栈是否为空！！</span>
+			<span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">op</span><span class="p">.</span><span class="n">empty</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="n">pri</span><span class="p">(</span><span class="n">op</span><span class="p">.</span><span class="n">top</span><span class="p">())</span> <span class="o">&gt;=</span> <span class="n">pri</span><span class="p">(</span><span class="n">c</span><span class="p">))</span> <span class="n">cal</span><span class="p">();</span>
+			<span class="n">op</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">c</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">else</span> <span class="p">{</span>
+			<span class="k">while</span> <span class="p">(</span><span class="n">rev</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">!=</span> <span class="n">op</span><span class="p">.</span><span class="n">top</span><span class="p">())</span> <span class="n">cal</span><span class="p">();</span>
+			<span class="n">op</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+	<span class="k">while</span> <span class="p">(</span><span class="o">!</span><span class="n">op</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span> <span class="n">cal</span><span class="p">();</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">num</span><span class="p">.</span><span class="n">top</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="将数值去掉n位后返回最小的那个数">将数值去掉n位后返回最小的那个数</h2>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="c1">// 取出num第index位数字后返回</span>
+<span class="n">string</span> <span class="nf">remove</span><span class="p">(</span><span class="kt">int</span> <span class="n">num</span><span class="p">,</span> <span class="kt">int</span> <span class="n">index</span><span class="p">)</span> <span class="p">{</span>
+	<span class="n">string</span> <span class="n">ss</span> <span class="o">=</span> <span class="n">to_string</span><span class="p">(</span><span class="n">num</span><span class="p">);</span>
+	<span class="n">string</span> <span class="n">res</span><span class="p">;</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">index</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">res</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">ss</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">index</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">ss</span><span class="p">.</span><span class="n">length</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">res</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">ss</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+	<span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// a：输入的数，n：要删除的数字的数量</span>
+<span class="kt">int</span> <span class="nf">process</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span> <span class="n">a</span><span class="p">;</span>
+	<span class="n">string</span> <span class="n">ss</span> <span class="o">=</span> <span class="n">to_string</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
+	<span class="kt">int</span> <span class="n">res</span> <span class="o">=</span> <span class="mh">0x3f3f3f3f</span><span class="p">;</span>
+	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">ss</span><span class="p">.</span><span class="n">length</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">string</span> <span class="n">cur</span> <span class="o">=</span> <span class="n">remove</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+		<span class="kt">int</span> <span class="n">tmp</span> <span class="o">=</span> <span class="n">process</span><span class="p">(</span><span class="n">stoi</span><span class="p">(</span><span class="n">cur</span><span class="p">),</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+		<span class="n">res</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">tmp</span><span class="p">);</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">process</span><span class="p">(</span><span class="mi">692434354</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="-图的算法">🔴 图的算法</h2>
+
+<p>单源最短路（Dijkstra）</p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="n">vis</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+<span class="kt">int</span> <span class="n">dist</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+<span class="kt">int</span> <span class="n">path</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+<span class="n">vector</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">edge</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">dijkstra</span><span class="p">(</span><span class="kt">int</span> <span class="n">v</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// 初始化</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">vis</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">MAX</span><span class="p">;</span>
+        <span class="n">path</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="n">dist</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">u</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="kt">int</span> <span class="n">minDist</span> <span class="o">=</span> <span class="n">MAX</span><span class="p">;</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">vis</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="n">minDist</span> <span class="o">&gt;</span> <span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="p">{</span>
+                <span class="n">u</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+                <span class="n">minDist</span> <span class="o">=</span>  <span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="n">vis</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+        
+        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">edge</span><span class="p">[</span><span class="n">u</span><span class="p">].</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kt">int</span> <span class="n">v</span> <span class="o">=</span> <span class="n">edge</span><span class="p">[</span><span class="n">u</span><span class="p">][</span><span class="n">i</span><span class="p">].</span><span class="n">first</span><span class="p">,</span> <span class="n">cost</span> <span class="o">=</span> <span class="n">edge</span><span class="p">[</span><span class="n">u</span><span class="p">][</span><span class="n">i</span><span class="p">].</span><span class="n">second</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">dist</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">dist</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">+</span> <span class="n">cost</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">dist</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="n">dist</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">+</span> <span class="n">cost</span><span class="p">;</span>
+                <span class="n">path</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="n">u</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>最小生成树</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">Prim</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">u</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">ldist</span><span class="p">;</span> <span class="c1">// 存储最小代价</span>
+    <span class="k">struct</span> <span class="nc">EdgeNode</span><span class="o">*</span> <span class="n">p</span><span class="p">;</span>
+
+    <span class="c1">// 初始化</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">lowcost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">INF</span><span class="p">;</span>
+        <span class="n">mark</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">// 初始时，MST中没有顶点</span>
+        <span class="n">vex</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// 从顶点1开始构造MST</span>
+    <span class="n">mark</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="n">lowcost</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">p</span> <span class="o">=</span> <span class="n">Head</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span> <span class="n">p</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">;</span> <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">link</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">k</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">VerAdj</span><span class="p">;</span>
+        <span class="n">lowcost</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">cost</span><span class="p">;</span>
+        <span class="n">vex</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">// 构造MST的主循环</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">j</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">ldist</span> <span class="o">=</span> <span class="n">INF</span><span class="p">;</span> <span class="c1">// 重置最小代价</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span> <span class="c1">// 即将被访问的顶点</span>
+        <span class="c1">// 确定即将被访问的顶点u</span>
+        <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">mark</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="n">lowcost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">ldist</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">ldist</span> <span class="o">=</span> <span class="n">lowcost</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+                <span class="n">u</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+
+        <span class="c1">// 将顶点u加入MST</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">u</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// 找到了有效的顶点</span>
+            <span class="n">mark</span><span class="p">[</span><span class="n">u</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+            <span class="c1">// 更新与u相邻顶点到MST的最小代价</span>
+            <span class="k">for</span> <span class="p">(</span><span class="n">p</span> <span class="o">=</span> <span class="n">Head</span><span class="p">[</span><span class="n">u</span><span class="p">];</span> <span class="n">p</span> <span class="o">!=</span> <span class="nb">NULL</span><span class="p">;</span> <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">link</span><span class="p">)</span> <span class="p">{</span>
+                <span class="n">k</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">VerAdj</span><span class="p">;</span>
+                <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">mark</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">cost</span> <span class="o">&lt;</span> <span class="n">lowcost</span><span class="p">[</span><span class="n">k</span><span class="p">])</span> <span class="p">{</span>
+                    <span class="n">lowcost</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">p</span><span class="o">-&gt;</span><span class="n">cost</span><span class="p">;</span>
+                    <span class="n">vex</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">u</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>并查集</p>
+
+<p>拓扑排序</p>
+
+<h2 id="-动态规划回文子串的一些内容的复习">🔴 动态规划（回文子串）的一些内容的复习</h2>
+
+<h2 id="-分数转换成小数">🔴 分数转换成小数</h2>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">string</span> <span class="nf">fractionToDecimal</span><span class="o">(</span><span class="kt">int</span> <span class="n">numerator</span><span class="o">,</span> <span class="kt">int</span> <span class="n">denominator</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">numerator</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// 分子为0，直接返回"0"</span>
+        <span class="k">return</span> <span class="s">"0"</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="n">string</span> <span class="n">result</span><span class="o">;</span>
+    <span class="c1">// 如果结果为负数（异号），在结果前加上负号</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">numerator</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">^</span> <span class="n">denominator</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="o">)</span> <span class="n">result</span> <span class="o">+=</span> <span class="sc">'-'</span><span class="o">;</span>
+
+    <span class="c1">// 使用long long类型避免溢出，并取绝对值</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="n">a</span> <span class="o">=</span> <span class="n">llabs</span><span class="o">(</span><span class="n">numerator</span><span class="o">),</span> <span class="n">b</span> <span class="o">=</span> <span class="n">llabs</span><span class="o">(</span><span class="n">denominator</span><span class="o">);</span>
+
+    <span class="c1">// 计算整数部分，并将余数乘10准备计算小数部分</span>
+    <span class="n">result</span> <span class="o">+=</span> <span class="n">to_string</span><span class="o">(</span><span class="n">a</span> <span class="o">/</span> <span class="n">b</span><span class="o">);</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="n">remainder</span> <span class="o">=</span> <span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="o">;</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">remainder</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// 如果能整除，直接返回整数部分</span>
+        <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="c1">// 处理小数部分</span>
+    <span class="n">result</span> <span class="o">+=</span> <span class="sc">'.'</span><span class="o">;</span>
+    <span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">long</span> <span class="kt">long</span><span class="o">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">map</span><span class="o">;</span> <span class="c1">// 用于记录余数出现的位置</span>
+
+    <span class="c1">// 当余数不为0且该余数未出现过时，继续进行循环</span>
+    <span class="k">while</span> <span class="o">(</span><span class="n">remainder</span> <span class="o">!=</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">map</span><span class="o">.</span><span class="na">find</span><span class="o">(</span><span class="n">remainder</span><span class="o">)</span> <span class="o">==</span> <span class="n">map</span><span class="o">.</span><span class="na">end</span><span class="o">())</span> <span class="o">{</span>
+        <span class="n">map</span><span class="o">[</span><span class="n">remainder</span><span class="o">]</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="na">size</span><span class="o">();</span> <span class="c1">// 记录当前余数的位置</span>
+        <span class="n">remainder</span> <span class="o">*=</span> <span class="mi">10</span><span class="o">;</span> <span class="c1">// 余数乘10准备下一轮计算</span>
+        <span class="n">result</span> <span class="o">+=</span> <span class="n">to_string</span><span class="o">(</span><span class="n">remainder</span> <span class="o">/</span> <span class="n">b</span><span class="o">);</span> <span class="c1">// 计算新的一位小数</span>
+        <span class="n">remainder</span> <span class="o">%=</span> <span class="n">b</span><span class="o">;</span> <span class="c1">// 更新余数</span>
+    <span class="o">}</span>
+
+    <span class="k">if</span> <span class="o">(</span><span class="n">remainder</span> <span class="o">!=</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span> <span class="c1">// 如果余数非0，说明发现了循环小数</span>
+        <span class="c1">// 在循环开始的位置插入左括号，并在字符串末尾加上右括号</span>
+        <span class="n">result</span><span class="o">.</span><span class="na">insert</span><span class="o">(</span><span class="n">map</span><span class="o">[</span><span class="n">remainder</span><span class="o">],</span> <span class="s">"("</span><span class="o">);</span>
+        <span class="n">result</span> <span class="o">+=</span> <span class="sc">')'</span><span class="o">;</span>
+    <span class="o">}</span>
+
+    <span class="k">return</span> <span class="n">result</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+</section>
+            </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div></div>
+    </div>
+</div>
+
+<!-- introduce mathjax support -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script
+  type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+<!-- introduce per-page mermaid support -->
+
+
+<!-- introduce mathjax support -->
+<script>
+    function fixes_chrome_anchors() {
+        let chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && chrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    }
+
+    if (document.readyState === "loading") {
+        // Loading hasn't finished yet
+        document.addEventListener("DOMContentLoaded", fixes_chrome_anchors);
+    } else {
+        // `DOMContentLoaded` has already fired
+        fixes_chrome_anchors();
+    }
+</script>
+
+
+                        <a href="/2024-03-18-chatgpt.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: ChatGPT 提问汇总">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    
+
+                    
+                </div>
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({
+    "page": {
+        "title": "Introduction",
+        "level": "1.1",
+        "depth": 1,
+        
+        "dir": "ltr"
+    },    "config": {
+        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "styles": {
+            "ebook": "styles/ebook.css",
+            "epub": "styles/epub.css",
+            "mobi": "styles/mobi.css",
+            "pdf": "styles/pdf.css",
+            "print": "styles/print.css",
+            "website": "styles/website.css"
+        },
+        "pluginsConfig": {
+            "expandable-chapter-small2": {
+                "articlesExpand": true,
+            },
+            "fontsettings": {
+                "family": "sans",
+                "size": 2,
+                "theme": "white"
+            },
+            "highlight": {},
+            "livereload": {},
+            "lunr": {
+                "ignoreSpecialCharacters": false,
+                "maxIndexSize": 1000000
+            },
+            "search": {},            "sharing": {
+                "facebook": true,
+
+                "google": false,
+
+                "github": true,
+              
+                "github_link": "https://github.com",
+              
+
+                "telegram": false,
+                "telegram_link": "https://t.me",
+
+                "instapaper": false,
+
+                "twitter": true,
+              
+
+                "vk": false,
+
+                "weibo": false,
+
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
+            },
+"theme-default": {
+                "showLevel": false,
+                "styles": {
+                    "ebook": "styles/ebook.css",
+                    "epub": "styles/epub.css",
+                    "mobi": "styles/mobi.css",
+                    "pdf": "styles/pdf.css",
+                    "print": "styles/print.css",
+                    "website": "styles/website.css"
+                }
+            },
+        },
+        "theme": "default",
+        "author": "Tao He",
+        "pdf": {
+            "pageNumbers": true,
+            "fontSize": 12,
+            "fontFamily": "Arial",
+            "paperSize": "a4",
+            "chapterMark": "pagebreak",
+            "pageBreaksBefore": "/",
+            "margin": {
+                "right": 62,
+                "left": 62,
+                "top": 56,
+                "bottom": 56
+            }
+        },
+        "structure": {
+            "langs": "LANGS.md",
+            "readme": "README.md",
+        },
+        "variables": {},
+        "title": "🏠 Jasper's Blog",
+        "language": "en",
+        "gitbook": "*"
+    },
+    "file": {
+        "path": "_posts/2024-3-21-coding_quick_review.md",
+        "mtime": "2024-03-21 00:00:00 +0800",
+        "type": "markdown"
+    },
+    "gitbook": {
+        "version": "3.2.3",
+        "time": "2024-04-03 01:51:44 +0800"
+    },
+    "basePath": "",
+    "book": {
+        "language": ""
+    }
+});
+            });
+            </script>
+        </div><script src="/assets/gitbook/gitbook.js"></script>
+<script src="/assets/gitbook/theme.js"></script>
+
+<script src="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+<script src="/assets/gitbook/gitbook-plugin-splitter/splitter.js"></script>
+
+<!--
+<script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search.js"></script>
+-->
+
+</body>
+</html>
