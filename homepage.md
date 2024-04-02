@@ -1,15 +1,11 @@
 ---
 layout: home
-title: 📮 Jasper's Home Page
+title: 💻 Springboot学习笔记
 permalink: /
 cover: https://jasperjin01.github.io/assets/dinosaur.gif
 ---
 
-欢迎来到我的博客👏🏻 ，博客域名：[`https://jasperjin01.github.io`](https://jasperjin01.github.io)，希望对你能有帮助。
 
-PS：与博客相关的问题可以联系邮箱。
-
-![email](https://img.shields.io/badge/Email%20-timaxthu@gmail.com-blue.svg)
 
 
 

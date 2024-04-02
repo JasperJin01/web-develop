@@ -1,6 +1,6 @@
 # Configurations
-title:            🏠 Jasper's Blog
-longtitle:        Jasper Jin's Blog
+title:            🏠 Jasper's Springboot Notebook
+longtitle:        Jasper Jin's Springboot Notebook
 author:           Jasper Jin
 email:            timaxthu@gmail.com
 description: >
@@ -53,7 +53,7 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
-  week:
+  chapter01:
     output: true
   research:
     output: true
