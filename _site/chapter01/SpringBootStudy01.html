@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Spring Boot 01 · 🏠 Jasper&#39;s Blog</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>接口请求响应与测试、常用插件等小工具 · 🏠 Jasper&#39;s Blog</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="description" content="Jasper's Blog(new version) since 2024.
 "><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><meta name="author" content="Jasper Jin"><link rel="stylesheet" href="/assets/gitbook/style.css">
 <link rel="stylesheet" href="/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
@@ -28,6 +28,8 @@
             <link rel="prev" href="/" />
         
 
+        
+            <link rel="next" href="/chapter01/SpringBootStudy02.html" />
         
     </head>
     <body>
@@ -79,12 +81,34 @@
                         <li class="chapter active" data-level="1.2" data-path="/chapter01/SpringBootStudy01.html">
                         
                             <a href="/chapter01/SpringBootStudy01.html" onclick="pageScrollToTop(this)">
-                                Spring Boot 01
+                                接口请求响应与测试、常用插件等小工具
                             </a>
                             
                                 
-                                    <ul><li><a href="#spring-boot集成第三方类库的步骤" onclick="mobilePageScrollToAnchor(this)" >==Spring Boot集成第三方类库的步骤==</a></li></ul>
+                                    <ul><li><a href="#工具插件" onclick="mobilePageScrollToAnchor(this)" >工具&amp;插件</a><ul><li><a href="#lombok插件" onclick="mobilePageScrollToAnchor(this)" >lombok（插件）</a></li></ul></li><li><a href="#接口与测试" onclick="mobilePageScrollToAnchor(this)" >接口与测试</a><ul><li><a href="#rest架构风格restful服务" onclick="mobilePageScrollToAnchor(this)" >REST架构风格、RESTful服务</a></li><li><a href="#常用注解开发restful接口" onclick="mobilePageScrollToAnchor(this)" >常用注解开发RESTful接口</a></li><li><a href="#测试" onclick="mobilePageScrollToAnchor(this)" >测试</a></li><li><a href="#四种传参方式" onclick="mobilePageScrollToAnchor(this)" >四种传参方式</a></li></ul></li><li><a href="#其他" onclick="mobilePageScrollToAnchor(this)" >其他</a><ul><li><a href="#spring-boot集成第三方类库的步骤" onclick="mobilePageScrollToAnchor(this)" >==Spring Boot集成第三方类库的步骤==</a></li></ul></li></ul>
 
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/chapter01/SpringBootStudy02.html">
+                        
+                            <a href="/chapter01/SpringBootStudy02.html" onclick="pageScrollToTop(this)">
+                                数据库相关
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/chapter01/SpringBootStudy03.html">
+                        
+                            <a href="/chapter01/SpringBootStudy03.html" onclick="pageScrollToTop(this)">
+                                数据库相关（2）
+                            </a>
+                            
                                 
                             
                         </li>
@@ -109,108 +133,7 @@
                     
 
                     
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022-05-24-page_cover.html">
-                        
-                            <a href="/jekyll/2022-05-24-page_cover.html" onclick="pageScrollToTop(this)">
-                                Page with cover image
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022-06-26-wide_tables.html">
-                        
-                            <a href="/jekyll/2022-06-26-wide_tables.html" onclick="pageScrollToTop(this)">
-                                Wide tables
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2022-06-30-tips_warnings_dangers.html">
-                        
-                            <a href="/jekyll/2022-06-30-tips_warnings_dangers.html" onclick="pageScrollToTop(this)">
-                                Tips, Warnings, and Dangers
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023-08-31-mermaid.html">
-                        
-                            <a href="/jekyll/2023-08-31-mermaid.html" onclick="pageScrollToTop(this)">
-                                Diagrams with mermaid.js
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023-10-14-math-latex.html">
-                        
-                            <a href="/jekyll/2023-10-14-math-latex.html" onclick="pageScrollToTop(this)">
-                                MathJax and LaTeX
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/jekyll/2023-12-12-footnotes.html">
-                        
-                            <a href="/jekyll/2023-12-12-footnotes.html" onclick="pageScrollToTop(this)">
-                                Using Footnotes
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/2024-02-11-python.html">
-                        
-                            <a href="/2024-02-11-python.html" onclick="pageScrollToTop(this)">
-                                项目笔记——Video Downloader&amp;Python语法学习
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/2024-03-18-chatgpt.html">
-                        
-                            <a href="/2024-03-18-chatgpt.html" onclick="pageScrollToTop(this)">
-                                ChatGPT 提问汇总
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/2024-03-21-coding_quick_review.html">
-                        
-                            <a href="/2024-03-21-coding_quick_review.html" onclick="pageScrollToTop(this)">
-                                代码快速复习
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
 
-                    
-                        <li class="divider"></li>
                     
                 
             
@@ -219,31 +142,7 @@
                     
 
                     
-                        
-                        <li class="chapter" data-level="1.1" data-path="/research/02-transform.html">
-                        
-                            <a href="/research/02-transform.html" onclick="pageScrollToTop(this)">
-                                Transformer的学习（2）
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/research/01-transform.html">
-                        
-                            <a href="/research/01-transform.html" onclick="pageScrollToTop(this)">
-                                Transformer的学习（1）
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
 
-                    
-                        <li class="divider"></li>
                     
                 
             
@@ -256,7 +155,7 @@
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         
-                            <a href="." >Spring Boot 01</a>
+                            <a href="." >接口请求响应与测试、常用插件等小工具</a>
                         
                     </h1>
                 </div>
@@ -269,10 +168,192 @@
             <div class="search-noresults">
                 <section class="normal markdown-section">
                     
-                        <h1 id="/chapter01/SpringBootStudy01">Spring Boot 01</h1>
+                        <h1 id="/chapter01/SpringBootStudy01">接口请求响应与测试、常用插件等小工具</h1>
                     
 
-                    <h2 id="spring-boot集成第三方类库的步骤">==Spring Boot集成第三方类库的步骤==</h2>
+                    <h1 id="工具插件">工具&amp;插件</h1>
+
+<p>代码补全插件 Codota</p>
+
+<h2 id="lombok插件">lombok（插件）</h2>
+
+<ul>
+  <li>根据成员变量生成get和set方法</li>
+  <li>根据成员变量生成类的构造函数</li>
+  <li>重写toString()和hashCode方法</li>
+  <li>引入日志框架logFactory，用来打印日志</li>
+</ul>
+
+<p>这些事情lombok可以通过注解的方式帮我们自动生成。</p>
+
+<p>要在pom.xml里面加上如下依赖，插件生效。</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nt">&lt;dependency&gt;</span>
+            <span class="nt">&lt;groupId&gt;</span>org.projectlombok<span class="nt">&lt;/groupId&gt;</span>
+            <span class="nt">&lt;artifactId&gt;</span>lombok<span class="nt">&lt;/artifactId&gt;</span>
+            <span class="nt">&lt;optional&gt;</span>true<span class="nt">&lt;/optional&gt;</span>
+<span class="nt">&lt;/dependency&gt;</span>
+</code></pre></div></div>
+
+<h3 id="data">@Data</h3>
+
+<p>在java类上使用@Data注解，将为我们在编译期自动生成</p>
+
+<ul>
+  <li>成员变量的get和set方法</li>
+  <li>equals方法</li>
+  <li>canEqual方法</li>
+  <li>hashCode方法</li>
+  <li>toString方法</li>
+</ul>
+
+<h3 id="slf4j">@Slf4j</h3>
+
+<p>将在编译期自动帮我们引入Logger日志常量，我们在代码中就直接使用log.info或log.debug打印日志即可。下图中红色代码就用Slf4j注解代替就可以了。</p>
+
+<h3 id="builder">@Builder</h3>
+
+<p>在Java类上使用Builder注解之后，我们可以使用如下代码为对象属性赋值</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">LombokPOJO</span> <span class="n">lombokPOJO</span> <span class="o">=</span> <span class="nc">LombokPOJO</span><span class="o">.</span><span class="na">builder</span><span class="o">()</span>
+        <span class="o">.</span><span class="na">name</span><span class="o">(</span><span class="s">"kobe"</span><span class="o">)</span>
+        <span class="o">.</span><span class="na">age</span><span class="o">(</span><span class="mi">39</span><span class="o">)</span>
+        <span class="o">.</span><span class="na">build</span><span class="o">();</span>
+</code></pre></div></div>
+
+<h3 id="allargsconstructor">@AllArgsConstructor</h3>
+
+<p>AllArgsConstructor注解将为我们在编译期自动生成：全参构造函数。</p>
+
+<h1 id="接口与测试">接口与测试</h1>
+
+<h2 id="rest架构风格restful服务">REST架构风格、RESTful服务</h2>
+
+<ul>
+  <li>REST 通过 URI 暴露资源时，会强调不要在 URI 中出现动词。例如 GET /api/dogs/{id}而不是GET /api/getDogs/{id}</li>
+  <li>用HTTP方法体现对资源的操作（动词）
+    <ul>
+      <li>GET ： 获取、读取资源</li>
+      <li>POST ： 添加资源</li>
+      <li>PUT ： 修改资源</li>
+      <li>DELETE ： 删除资源</li>
+    </ul>
+  </li>
+  <li>通过HTTP状态码体现动作的结果,不要自定义
+    <ul>
+      <li>200 OK</li>
+      <li>400 Bad Request</li>
+      <li>500 Internal Server Error</li>
+    </ul>
+  </li>
+  <li>使用复数名词。例如/dogs 而不是 /dog</li>
+</ul>
+
+<p>RESTful 服务是一种基于 REST（Representational State Transfer，表述性状态转移）架构风格的服务，它利用 HTTP 协议进行通信，通过 URI（统一资源标识符）来访问和操作资源，使用 HTTP 方法（如 GET、POST、PUT、DELETE）来表示对资源的不同操作。</p>
+
+<h2 id="常用注解开发restful接口">常用注解开发RESTful接口</h2>
+
+<p><strong>在Model文件夹中新建Aritcle.java类和Reader.java类。</strong></p>
+
+<ul>
+  <li>@Builder为我们提供了通过对象属性的链式赋值构建对象的方法，下文中代码会有详细介绍。</li>
+  <li>@Data注解帮我们定义了一系列常用方法，如：getters、setters、hashcode、equals等</li>
+</ul>
+
+<p><strong>新建ArticleController.java控制类文件。</strong>控制类文件实现了四个方法（接口），分别进行的Article的增删改查。</p>
+
+<h3 id="restcontroller和controller类级别">@RestController和@Controller（类级别）</h3>
+
+<ul>
+  <li>@RestController和@Controller：在控制器类上方加这个注解
+    <ul>
+      <li>使用 @RestController 注解的类中的方法会自动将方法的返回值<strong>转换为 JSON 或 XML 格式</strong>，并作为 <strong>HTTP 响应的内容</strong>返回给客户端，而不是渲染视图。</li>
+      <li>@Controller进行HTML渲染</li>
+    </ul>
+  </li>
+</ul>
+
+<p>⁉️ 关于如何判断返回的格式是JSON还是XML，Spring会根据客户端请求的<code class="language-plaintext highlighter-rouge">Accept</code>头部信息来确定响应的内容格式。如果客户端请求中包含<code class="language-plaintext highlighter-rouge">Accept: application/json</code>头部信息，Spring会将响应内容转换为JSON格式；如果客户端请求中包含<code class="language-plaintext highlighter-rouge">Accept: application/xml</code>头部信息，Spring会将响应内容转换为XML格式。</p>
+
+<p><strong><font color="red">创建一个类AjaxResponse，用于统一规范接口响应的数据格式。</font></strong></p>
+
+<p>比如不创建AjaxResponse类时，ArticleController中的GET函数可能返回一个Article类。</p>
+
+<p>那么这时将要返回的Article类进行抽象（Object类更通用），然后顺带<strong>isok（请求是否处理成功）、code（请求响应状态码（200、400、500））、message（请求结果描述信息，给人看的）</strong>信息，打包成一个AjaxResponse类返回。</p>
+
+<h3 id="requestmapping类级别或方法级别">@RequestMapping（类级别或方法级别）</h3>
+
+<p><strong>使用 <code class="language-plaintext highlighter-rouge">@RequestMapping</code> 注解表示特定的处理方法将处理指定的 URL 路径（用value字段表示）。</strong></p>
+
+<p><strong>同时声明请求的方法（GET, POST, PUT, DELETE）。请求方法结合RequestMapping可以简写。</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@RequestMapping</span><span class="o">(</span><span class="n">value</span> <span class="o">=</span> <span class="s">"/articles"</span><span class="o">,</span> <span class="n">method</span> <span class="o">=</span> <span class="nc">RequestMethod</span><span class="o">.</span><span class="na">POST</span><span class="o">)</span>
+<span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/articles"</span><span class="o">)</span>
+</code></pre></div></div>
+
+<h3 id="pathvariable">@PathVariable</h3>
+
+<p>方法参数的值来自于在请求的 URL 的路径，所以叫PathVariable。</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@GetMapping</span><span class="o">(</span><span class="s">"/articles/{id}"</span><span class="o">)</span>
+<span class="kd">public</span> <span class="nc">AjaxResponse</span> <span class="nf">getArticle</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="s">"id"</span><span class="o">)</span> <span class="nc">Long</span> <span class="n">id</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// ...</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="requestbodyrequestparam和requestheader处理-http-请求">@RequestBody、@RequestParam和@RequestHeader（处理 HTTP 请求）</h3>
+
+<p><code class="language-plaintext highlighter-rouge">@RequestBody</code>: 用于<strong>将 HTTP 请求的请求体（Body）中的数据绑定到方法的参数上</strong>。通常用于处理 POST、PUT 等请求中发送的 JSON 或 XML 格式的数据。例如：</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@PostMapping</span><span class="o">(</span><span class="s">"/users"</span><span class="o">)</span>
+<span class="kd">public</span> <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">User</span><span class="o">&gt;</span> <span class="nf">createUser</span><span class="o">(</span><span class="nd">@RequestBody</span> <span class="nc">User</span> <span class="n">user</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// 创建用户</span>
+    <span class="n">userService</span><span class="o">.</span><span class="na">createUser</span><span class="o">(</span><span class="n">user</span><span class="o">);</span>
+    <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">(</span><span class="n">user</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>RequestParam挺好理解，就是在URL后面加?xxx=xxx做参数</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="nc">AjaxResponse</span> <span class="nf">saveArticle</span><span class="o">(</span><span class="nd">@RequestParam</span>  <span class="nc">String</span> <span class="n">author</span><span class="o">,</span>
+                              <span class="nd">@RequestParam</span>  <span class="nc">String</span> <span class="n">title</span><span class="o">,</span>
+                              <span class="nd">@RequestParam</span>  <span class="nc">String</span> <span class="n">content</span><span class="o">,</span>
+                              <span class="nd">@DateTimeFormat</span><span class="o">(</span><span class="n">pattern</span> <span class="o">=</span> <span class="s">"yyyy-MM-dd HH:mm:ss"</span><span class="o">)</span>
+                              <span class="nd">@RequestParam</span>  <span class="nc">Date</span> <span class="n">createTime</span><span class="o">){</span>
+
+<span class="n">log</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"saveArticle:"</span> <span class="o">+</span> <span class="n">createTime</span><span class="o">);</span>
+<span class="k">return</span> <span class="nc">AjaxResponse</span><span class="o">.</span><span class="na">success</span><span class="o">();</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">@RequestHeader</code>: 用于<strong>获取 HTTP 请求头中的值</strong>，并将其绑定到方法的参数上。通常用于获取请求头中的某个特定信息，如用户代理、授权信息等。例如：</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@GetMapping</span><span class="o">(</span><span class="s">"/users"</span><span class="o">)</span>
+<span class="kd">public</span> <span class="nc">ResponseEntity</span><span class="o">&lt;</span><span class="nc">User</span><span class="o">&gt;</span> <span class="nf">getUser</span><span class="o">(</span><span class="nd">@RequestHeader</span><span class="o">(</span><span class="s">"User-Agent"</span><span class="o">)</span> <span class="nc">String</span> <span class="n">userAgent</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// 根据 User-Agent 查询用户</span>
+    <span class="nc">User</span> <span class="n">user</span> <span class="o">=</span> <span class="n">userService</span><span class="o">.</span><span class="na">getUserByUserAgent</span><span class="o">(</span><span class="n">userAgent</span><span class="o">);</span>
+    <span class="k">return</span> <span class="nc">ResponseEntity</span><span class="o">.</span><span class="na">ok</span><span class="o">(</span><span class="n">user</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h2 id="测试">测试</h2>
+
+<p>后端（接口）测试工具postman。模拟表单提交、json参数提交等。</p>
+
+<p>前端的createTime是字符串，后端（Article类）的字符串是Date类型。需要在configuration中配置：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+spring.jackson.time-zone=GMT+8
+</code></pre></div></div>
+
+<h2 id="四种传参方式">四种传参方式</h2>
+
+<p>POST方法传参，在body中</p>
+
+<p>测试方法</p>
+
+<h1 id="其他">其他</h1>
+
+<h2 id="spring-boot集成第三方类库的步骤">==Spring Boot集成第三方类库的步骤==</h2>
 
 <ol>
   <li>通过maven引入springboot-XXXX-starter</li>
@@ -346,6 +427,10 @@ window.MathJax = {
                     
 
                     
+                        <a href="/chapter01/SpringBootStudy02.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 数据库相关">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    
                 </div>
             </div>
 
@@ -357,6 +442,15 @@ window.MathJax = {
         "title": "Introduction",
         "level": "1.1",
         "depth": 1,
+        
+        "next": {
+            "title": "数据库相关",
+            "level": "1.2",
+            "depth": 1,
+            "path": "_chapter01/SpringBootStudy02.md",
+            "ref": "_chapter01/SpringBootStudy02.md",
+            "articles": []
+        },
         
         "dir": "ltr"
     },    "config": {
@@ -447,12 +541,12 @@ window.MathJax = {
     },
     "file": {
         "path": "_chapter01/SpringBootStudy01.md",
-        "mtime": "2024-03-17 00:00:00 +0800",
+        "mtime": "2024-04-03 00:00:00 +0800",
         "type": "markdown"
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-04-03 02:43:25 +0800"
+        "time": "2024-04-05 08:18:48 +0800"
     },
     "basePath": "",
     "book": {
