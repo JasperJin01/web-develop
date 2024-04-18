@@ -1,6 +1,6 @@
 # Configurations
-title:            🏠 Jasper's Springboot Notebook
-longtitle:        Jasper Jin's Springboot Notebook
+title:            🏠 Jasper's Develop Notebook
+longtitle:        Jasper Jin's Develop Notebook
 author:           Jasper Jin
 email:            timaxthu@gmail.com
 description: >
@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://jasperjin01.github.io'
-baseurl:          '/web-springboot'
+baseurl:          '/web-develop'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself

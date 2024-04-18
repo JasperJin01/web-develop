@@ -68,9 +68,9 @@ AllArgsConstructor注解将为我们在编译期自动生成：全参构造函�
 
 
 
-# 接口与测试
 
-## REST架构风格、RESTful服务
+
+# REST架构风格、RESTful服务
 
 * REST 通过 URI 暴露资源时，会强调不要在 URI 中出现动词。例如 GET /api/dogs/{id}而不是GET /api/getDogs/{id}
 * 用HTTP方法体现对资源的操作（动词）
@@ -88,7 +88,7 @@ RESTful 服务是一种基于 REST（Representational State Transfer，表述性
 
 
 
-## 常用注解开发RESTful接口
+# 常用注解开发RESTful接口
 
 **在Model文件夹中新建Aritcle.java类和Reader.java类。**
 
@@ -97,13 +97,15 @@ RESTful 服务是一种基于 REST（Representational State Transfer，表述性
 
 **新建ArticleController.java控制类文件。**控制类文件实现了四个方法（接口），分别进行的Article的增删改查。
 
-### @RestController和@Controller（类级别）
+## @RestController和@Controller标识控制类
 
 * @RestController和@Controller：在控制器类上方加这个注解
     * 使用 @RestController 注解的类中的方法会自动将方法的返回值**转换为 JSON 或 XML 格式**，并作为 **HTTP 响应的内容**返回给客户端，而不是渲染视图。
     * @Controller进行HTML渲染
 
 ⁉️ 关于如何判断返回的格式是JSON还是XML，Spring会根据客户端请求的`Accept`头部信息来确定响应的内容格式。如果客户端请求中包含`Accept: application/json`头部信息，Spring会将响应内容转换为JSON格式；如果客户端请求中包含`Accept: application/xml`头部信息，Spring会将响应内容转换为XML格式。
+
+## AjaxResponse类
 
 **<font color = red>创建一个类AjaxResponse，用于统一规范接口响应的数据格式。</font>**
 
@@ -113,7 +115,7 @@ RESTful 服务是一种基于 REST（Representational State Transfer，表述性
 
 
 
-### @RequestMapping（类级别或方法级别）
+## @RequestMapping（类级别或方法级别）
 
 **使用 `@RequestMapping` 注解表示特定的处理方法将处理指定的 URL 路径（用value字段表示）。**
 
@@ -126,7 +128,7 @@ RESTful 服务是一种基于 REST（Representational State Transfer，表述性
 
 
 
-### @PathVariable
+## @PathVariable
 
 方法参数的值来自于在请求的 URL 的路径，所以叫PathVariable。
 
@@ -139,7 +141,7 @@ public AjaxResponse getArticle(@PathVariable("id") Long id) {
 
 
 
-### @RequestBody、@RequestParam和@RequestHeader（处理 HTTP 请求）
+## @RequestBody、@RequestParam和@RequestHeader（处理 HTTP 请求）
 
 `@RequestBody`: 用于**将 HTTP 请求的请求体（Body）中的数据绑定到方法的参数上**。通常用于处理 POST、PUT 等请求中发送的 JSON 或 XML 格式的数据。例如：
 
@@ -151,6 +153,10 @@ public ResponseEntity<User> createUser(@RequestBody User user) {
     return ResponseEntity.ok(user);
 }
 ```
+
+
+
+
 
 RequestParam挺好理解，就是在URL后面加?xxx=xxx做参数
 
@@ -182,7 +188,7 @@ public ResponseEntity<User> getUser(@RequestHeader("User-Agent") String userAgen
 
 
 
-## 测试
+# 测试
 
 后端（接口）测试工具postman。模拟表单提交、json参数提交等。
 
