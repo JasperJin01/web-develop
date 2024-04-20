@@ -8,6 +8,12 @@ layout: post
 
 
 
+**初始化后，可以删除的文件：**（.mvn, HELP.md, mvnw, mvnw.cmd）
+
+<img src="https://img.kancloud.cn/e6/0d/e60d6ec87550df6e910c7360d33f1f47_471x325.png">
+
+
+
 
 
 # 工具&插件
